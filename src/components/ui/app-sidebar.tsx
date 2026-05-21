@@ -66,7 +66,7 @@ export function AppSidebar() {
 
 	return (
 		<Sidebar variant="sidebar">
-			<SidebarHeader>Groupify</SidebarHeader>
+			<SidebarHeader>Nestfeed</SidebarHeader>
 			<SidebarContent>
 				<SidebarGroup>
 					<SidebarMenu>

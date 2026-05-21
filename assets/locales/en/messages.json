@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Groupify",
+    "message": "Nestfeed",
     "description": "Name of the extension."
   },
   "extensionDescription": {
@@ -16,7 +16,7 @@
     "description": "Popup button text"
   },
   "sidebar_unauthorized": {
-    "message": "Login to Groupify",
+    "message": "Login to Nestfeed",
     "description": "Text to indicate that the User needs to login"
   },
   "sidebar_loading": {
@@ -96,7 +96,7 @@
     "description": "Text to delete tooltip"
   },
   "login_to_groupify": {
-    "message": "Login to Groupify",
+    "message": "Login to Nestfeed",
     "description": "Login screen title"
   },
   "enter_your_email_below_to_login_to_your_account": {
@@ -156,7 +156,7 @@
     "description": "Validation message: password min 6 characters"
   },
   "login_title": {
-    "message": "Login to Groupify",
+    "message": "Login to Nestfeed",
     "description": "Login screen title"
   },
   "login_subtitle": {
@@ -188,8 +188,8 @@
     "description": "Sign In button text"
   },
   "login_discord": {
-    "message": "Login with Groupify",
-    "description": "Groupify login button"
+    "message": "Login with Nestfeed",
+    "description": "Nestfeed login button"
   },
   "login_google": {
     "message": "Login with Google",

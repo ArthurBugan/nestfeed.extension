@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Groupify",
+    "message": "Nestfeed",
     "description": "Nome dell'estensione."
   },
   "extensionDescription": {
@@ -16,7 +16,7 @@
     "description": "Testo del pulsante di supporto del popup"
   },
   "sidebar_unauthorized": {
-    "message": "Accedi a Groupify",
+    "message": "Accedi a Nestfeed",
     "description": "Testo per indicare che l'utente deve effettuare il login"
   },
   "sidebar_loading": {
@@ -96,7 +96,7 @@
     "description": "Testo per il tooltip di eliminazione"
   },
   "login_to_groupify": {
-    "message": "Accedi a Groupify",
+    "message": "Accedi a Nestfeed",
     "description": "Titolo della schermata di accesso"
   },
   "enter_your_email_below_to_login_to_your_account": {
@@ -156,7 +156,7 @@
     "description": "Messaggio di convalida: password minima di 6 caratteri"
   },
   "login_title": {
-    "message": "Accedi a Groupify",
+    "message": "Accedi a Nestfeed",
     "description": "Titolo della schermata di accesso"
   },
   "login_subtitle": {
@@ -188,8 +188,8 @@
     "description": "Testo del pulsante di accesso"
   },
   "login_discord": {
-    "message": "Accedi con Groupify",
-    "description": "Pulsante di accesso Groupify"
+    "message": "Accedi con Nestfeed",
+    "description": "Pulsante di accesso Nestfeed"
   },
   "login_google": {
     "message": "Accedi con Google",

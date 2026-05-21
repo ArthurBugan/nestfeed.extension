@@ -134,9 +134,9 @@ const UnauthorizedState = () => (
         variant="outline"
         size="sm"
         className="w-full h-8 text-sm font-medium rounded-lg gap-2 dark:bg-white/5 dark:text-red-300/80 dark:border-white/10 dark:hover:bg-white/10 dark:hover:text-red-300"
-        onClick={() => window.open("https://groupify.dev/dashboard/groups")}>
+        onClick={() => window.open("https://nestfeed.app/dashboard/groups")}>
         <ExternalLink className="h-3.5 w-3.5" />
-        Sign in to Groupify
+        Sign in to Nestfeed
       </Button>
     </div>
   </div>
@@ -278,7 +278,7 @@ const Sidebar = () => {
                       size="icon"
                       className="h-8 w-8 shrink-0 rounded-md dark:text-white/50 dark:hover:text-white dark:hover:bg-white/[0.06]"
                       onClick={() =>
-                        window.open("https://groupify.dev/dashboard/groups")
+                        window.open("https://nestfeed.app/dashboard/groups")
                       }>
                       <Plus className="h-4 w-4" />
                     </Button>
@@ -298,7 +298,7 @@ const Sidebar = () => {
               {!groups?.length ? (
                 <EmptyState
                   onCreate={() =>
-                    window.open("https://groupify.dev/dashboard/groups")
+                    window.open("https://nestfeed.app/dashboard/groups")
                   }
                 />
               ) : (

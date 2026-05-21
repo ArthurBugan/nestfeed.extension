@@ -116,7 +116,7 @@ const GroupItem: React.FC<GroupItemProps> = ({
           variant="ghost"
           size="icon"
           className="h-7 w-7 shrink-0 opacity-0 group-hover/item:opacity-100 transition-all duration-150 rounded-md dark:text-white/40 dark:hover:text-white dark:hover:bg-white/[0.06]"
-          onClick={() => window.open("https://groupify.dev/dashboard/groups")}>
+          onClick={() => window.open("https://nestfeed.app/dashboard/groups")}>
           <Pencil className="h-3 w-3" />
         </Button>
       </div>
