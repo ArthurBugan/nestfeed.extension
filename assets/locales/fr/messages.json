@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Groupify",
+    "message": "Nestfeed",
     "description": "Nom de l'extension."
   },
   "extensionDescription": {
@@ -16,7 +16,7 @@
     "description": "Texte du bouton de support de la popup"
   },
   "sidebar_unauthorized": {
-    "message": "Connectez-vous à Groupify",
+    "message": "Connectez-vous à Nestfeed",
     "description": "Texte indiquant que l'utilisateur doit se connecter"
   },
   "sidebar_loading": {
@@ -96,7 +96,7 @@
     "description": "Texte de l'infobulle de suppression"
   },
   "login_to_groupify": {
-    "message": "Se connecter à Groupify",
+    "message": "Se connecter à Nestfeed",
     "description": "Titre de l'écran de connexion"
   },
   "enter_your_email_below_to_login_to_your_account": {
@@ -156,7 +156,7 @@
     "description": "Message de validation : mot de passe minimum 6 caractères"
   },
   "login_title": {
-    "message": "Se connecter à Groupify",
+    "message": "Se connecter à Nestfeed",
     "description": "Titre de l'écran de connexion"
   },
   "login_subtitle": {
@@ -188,8 +188,8 @@
     "description": "Texte du bouton de connexion"
   },
   "login_discord": {
-    "message": "Se connecter avec Groupify",
-    "description": "Bouton de connexion Groupify"
+    "message": "Se connecter avec Nestfeed",
+    "description": "Bouton de connexion Nestfeed"
   },
   "login_google": {
     "message": "Se connecter avec Google",

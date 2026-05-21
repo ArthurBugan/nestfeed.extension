@@ -109,7 +109,7 @@ const EmptyState = () => (
       size="sm"
       className="h-9 text-sm gap-2"
       onClick={() =>
-        window.open("https://groupify.dev/dashboard/groups", "_blank")
+        window.open("https://nestfeed.app/dashboard/groups", "_blank")
       }>
       <Plus className="h-4 w-4" />
       Create Group
@@ -364,7 +364,7 @@ function IndexSidePanel() {
                   className="h-8 text-sm gap-1 dark:text-white/50 dark:hover:text-white"
                   onClick={() =>
                     window.open(
-                      "https://groupify.dev/dashboard/groups",
+                      "https://nestfeed.app/dashboard/groups",
                       "_blank"
                     )
                   }>

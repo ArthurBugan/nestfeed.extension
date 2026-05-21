@@ -39,7 +39,7 @@ function Options() {
             variant="secondary"
             className="w-40 h-24"
             onClick={() =>
-              window.open("https://groupify.dev/dashboard/groups")
+              window.open("https://nestfeed.app/dashboard/groups")
             }>
             <span className="text-3xl">
               {chrome.i18n.getMessage("sidebar_unauthorized")}
@@ -55,10 +55,10 @@ function Options() {
       <div className="p-6 w-full max-w-lg rounded-lg shadow-lg bg-secondary">
         <div className="space-y-2 text-center">
           <h1 className="text-4xl font-bold tracking-tight hover:text-gray-700 text-primary">
-            Support Groupify through Donations
+            Support Nestfeed through Donations
           </h1>
           <p className="text-primary text-[1.4rem]">
-            Groupify is a completely open-source YouTube extension that makes it
+            Nestfeed is a completely open-source YouTube extension that makes it
             easy to manage your subscriptions. Consider supporting our project
             through a donation.
           </p>
@@ -77,13 +77,13 @@ function Options() {
               <a
                 className="text-lg font-medium text-gray-900 underline underline-offset-2 hover:text-gray-700 text-primary"
                 target="_blank"
-                href="https://groupify.dev/dashboard/groups">
+                href="https://nestfeed.app/dashboard/groups">
                 Manage Subscriptions
               </a>
             </Button>
           </div>
           <div className="space-y-4">
-            <h2 className="text-3xl font-bold">Groupify Features:</h2>
+            <h2 className="text-3xl font-bold">Nestfeed Features:</h2>
             <ul className="space-y-2 text-primary text-[1.4rem]">
               <li>
                 <strong className="font-bold text-primary">
@@ -115,7 +115,7 @@ function Options() {
             Need help?
             <a
               className="text-lg font-medium text-gray-900 underline underline-offset-2 hover:text-gray-700 text-primary"
-              href="mailto:admin@groupify.dev">
+              href="mailto:admin@nestfeed.app">
               {" "}
               Contact Support
             </a>

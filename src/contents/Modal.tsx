@@ -15,7 +15,7 @@ interface GroupOption {
 const fetchGroups = async (): Promise<GroupOption[]> => {
   try {
     const response = await fetch(
-      "https://api.groupify.dev/api/v3/groups?limit=100",
+      "https://api.nestfeed.app/api/v3/groups?limit=100",
       {
         headers: {
           "Content-Type": "application/json"
@@ -36,7 +36,7 @@ const addChannelToGroup = async (
 ) => {
   try {
     const response = await fetch(
-      `https://api.groupify.dev/api/v3/groups/${groupId}/channels`,
+      `https://api.nestfeed.app/api/v3/groups/${groupId}/channels`,
       {
         method: "POST",
         headers: {
@@ -67,7 +67,7 @@ interface ModalProps {
 }
 
 export const config: PlasmoCSConfig = {
-  matches: ["https://groupify.dev/*", "https://www.youtube.com/*", "https://youtube.com/*"]
+  matches: ["https://nestfeed.app/*", "https://www.youtube.com/*", "https://youtube.com/*"]
 }
 
 const Modal = ({ onClose }: ModalProps) => {
@@ -363,7 +363,7 @@ const Modal = ({ onClose }: ModalProps) => {
                         No groups yet
                       </p>
                       <a
-                        href="https://groupify.dev/dashboard/groups"
+                        href="https://nestfeed.app/dashboard/groups"
                         target="_blank"
                         style={{
                           fontSize: "13px",

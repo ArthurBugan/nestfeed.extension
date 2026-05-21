@@ -3,7 +3,7 @@ import { relayMessage } from "@plasmohq/messaging"
 
 
 export const config: PlasmoCSConfig = {
-  matches: ["https://groupify.dev/*", "https://www.youtube.com/*", "https://youtube.com/*"]
+  matches: ["https://nestfeed.app/*", "https://www.youtube.com/*", "https://youtube.com/*"]
 }
 
 relayMessage({

@@ -1,16 +1,16 @@
 {
   "name": "youtube-channels-manager",
-  "displayName": "Groupify Youtube Organize",
-  "version": "1.5.0",
+  "displayName": "Nestfeed Youtube Organize",
+  "version": "1.7.0",
   "description": "Organize your youtube channels into groups and lists. Access them from Crunchyroll and Youtube the sidebar",
   "author": "arthurbugan",
   "scripts": {
     "dev": "plasmo dev --verbose",
     "dev:firefox": "plasmo dev --target=firefox-mv2 --verbose",
     "build": "plasmo build",
-    "build:chrome": "plasmo build && node -e \"const fs=require('fs');const m=JSON.parse(fs.readFileSync('build/chrome-mv3-prod/manifest.json'));delete m.action.default_popup;m.name='Groupify Youtube Organize';m.version='1.4.0';fs.writeFileSync('build/chrome-mv3-prod/manifest.json',JSON.stringify(m,null,2))\"",
-    "build:firefox": "plasmo build --target=firefox-mv2 && node -e \"const fs=require('fs');const m=JSON.parse(fs.readFileSync('build/firefox-mv2-prod/manifest.json'));m.sidebar_action={default_panel:'sidepanel.html'};m.browser_action.default_title='Groupify Youtube Organize';delete m.browser_action.default_popup;m.name='Groupify Youtube Organize';m.version='1.4.0';fs.writeFileSync('build/firefox-mv2-prod/manifest.json',JSON.stringify(m,null,2))\"",
-    "build:ios": "plasmo build --target=safari-mv3 && node -e \"const fs=require('fs');const m=JSON.parse(fs.readFileSync('build/safari-mv3-prod/manifest.json'));delete m.side_panel;m.action.default_popup='popup.html';m.name='Groupify YT Organize';m.version='1.4.0';fs.writeFileSync('build/safari-mv3-prod/manifest.json',JSON.stringify(m,null,2));fs.copyFileSync('build/safari-mv3-prod/sidepanel.html','build/safari-mv3-prod/popup.html')\" && node scripts/update-xcode.js",
+    "build:chrome": "plasmo build && node -e \"const fs=require('fs');const m=JSON.parse(fs.readFileSync('build/chrome-mv3-prod/manifest.json'));delete m.action.default_popup;m.name='Nestfeed Youtube Organize';m.version='1.4.0';fs.writeFileSync('build/chrome-mv3-prod/manifest.json',JSON.stringify(m,null,2))\"",
+    "build:firefox": "plasmo build --target=firefox-mv2 && node -e \"const fs=require('fs');const m=JSON.parse(fs.readFileSync('build/firefox-mv2-prod/manifest.json'));m.sidebar_action={default_panel:'sidepanel.html'};m.browser_action.default_title='Nestfeed Youtube Organize';delete m.browser_action.default_popup;m.name='Nestfeed Youtube Organize';m.version='1.4.0';fs.writeFileSync('build/firefox-mv2-prod/manifest.json',JSON.stringify(m,null,2))\"",
+    "build:ios": "plasmo build --target=safari-mv3 && node -e \"const fs=require('fs');const m=JSON.parse(fs.readFileSync('build/safari-mv3-prod/manifest.json'));delete m.side_panel;m.action.default_popup='popup.html';m.name='Nestfeed YT Organize';m.version='1.4.0';fs.writeFileSync('build/safari-mv3-prod/manifest.json',JSON.stringify(m,null,2));fs.copyFileSync('build/safari-mv3-prod/sidepanel.html','build/safari-mv3-prod/popup.html')\" && node scripts/update-xcode.js",
     "copy-assets": "node scripts/copy-assets.js",
     "package": "plasmo package"
   },
@@ -76,9 +76,9 @@
     "host_permissions": [
       "https://youtube.com/*",
       "https://www.youtube.com/*",
-      "https://groupify.dev/*",
-      "https://coolify.groupify.dev/*",
-      "https://api.groupify.dev/*",
+      "https://nestfeed.app/*",
+      "https://coolify.nestfeed.app/*",
+      "https://api.nestfeed.app/*",
       "https://www.crunchyroll.com/*",
       "https://www.tiktok.com/*"
     ],
@@ -91,7 +91,7 @@
       "matches": [
         "*://*.iconify.design/*",
         "*://*.youtube.com/*",
-        "*://*.groupify.dev/*"
+        "*://*.nestfeed.app/*"
       ]
     },
     "web_accessible_resources": [
@@ -103,7 +103,7 @@
         "matches": [
           "*://*.iconify.design/*",
           "*://*.youtube.com/*",
-          "*://*.groupify.dev/*"
+          "*://*.nestfeed.app/*"
         ],
         "extension_ids": [
           "$CRX_ID"
