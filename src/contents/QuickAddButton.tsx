@@ -621,7 +621,7 @@ const QuickAddButton = () => {
             "transition-all duration-200 flex items-center justify-center"
           )}>
           <div className="flex items-center gap-2">
-            <Layers className="h-3.5 w-3.5 text-red-500 dark:text-red-400" />
+            <Layers className="h-3.5 w-3.5 text-primary dark:text-primary" />
             <span>Add to Group</span>
           </div>
         </Button>

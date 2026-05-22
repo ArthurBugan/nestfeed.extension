@@ -1,7 +1,7 @@
 {
   "name": "youtube-channels-manager",
   "displayName": "Nestfeed Youtube Organize",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Organize your youtube channels into groups and lists. Access them from Crunchyroll and Youtube the sidebar",
   "author": "arthurbugan",
   "scripts": {
